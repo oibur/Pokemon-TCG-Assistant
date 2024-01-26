@@ -1,3 +1,11 @@
+January 26th, 2024
+I have written scripts to: 1. write my doubles 2. write my missing 3. update a master excel in prices folder that will keep track of prices over time. I am still trying to figure out how to 
+1. pull prices of unlimited AND reverse 
+2. multiply price by column quantity AND add unlimited and reverse totals together if I have both formats so that 
+3. One total price is added per row (under the column title being the date) even if there are multiple columns for that row to be calculated.
+4. Continue with rest of requirements outlined below
+
+
 January 22nd, 2024
 My aim is to create an app that can help me keep track of all my Pokemon cards. 
 1. What doubles do I have available to trade

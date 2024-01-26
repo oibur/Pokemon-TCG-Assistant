@@ -18,11 +18,14 @@ output_folder = os.path.join('missing', current_date)
 # Create the output folder if it doesn't exist
 os.makedirs(output_folder, exist_ok=True)
 
-# Select and write missing for 'unlimited' cards
+# Select and write missing cards for 'promo' where the 'promo' column is 0
+select_and_write_missing(df[df['set'].str.contains('promo', case=False)], 'promo', output_folder, 'promo_missing.xlsx')
+
+# Remove rows with 'promo' in the 'set' column
+df = df[~df['set'].str.contains('promo', case=False)]
+
+# Select and write missing cards for 'unlimited'
 select_and_write_missing(df, 'unlimited', output_folder, 'unlimited_missing.xlsx')
 
-# Select and write missing for 'reverse' cards
+# Select and write missing cards for 'reverse'
 select_and_write_missing(df, 'reverse', output_folder, 'reverse_missing.xlsx')
-
-# Select and write missing for 'promo' cards
-select_and_write_missing(df, 'promo', output_folder, 'promo_missing.xlsx')
