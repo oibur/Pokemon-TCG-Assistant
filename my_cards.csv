@@ -5508,7 +5508,7 @@ Fusion Strike,Growlithe,032,2,2,0,0,0,0,0,0
 Fusion Strike,Arcanine,033,2,1,0,0,0,0,0,0
 Fusion Strike,Slugma,034,2,1,0,0,0,0,0,0
 Fusion Strike,Magcargo,035,2,2,0,0,0,0,0,0
-Fusion Strike,Victini,036,2,1,0,0,0,0,0,0
+Fusion Strike,Victini,036,2,2,0,0,0,0,0,0
 Fusion Strike,Pansear,037,2,0,0,0,0,0,0,0
 Fusion Strike,Simisear,038,2,2,0,0,0,0,0,0
 Fusion Strike,Heatmor,041,2,1,0,0,0,0,0,0
@@ -5533,7 +5533,7 @@ Fusion Strike,Mantine,061,2,1,0,0,0,0,0,0
 Fusion Strike,Mudkip,062,2,2,0,0,0,0,0,0
 Fusion Strike,Marshtomp,063,2,0,0,0,0,0,0,0
 Fusion Strike,Swampert,064,1,0,0,0,0,0,0,0
-Fusion Strike,Clamperl,065,2,0,0,0,0,0,0,0
+Fusion Strike,Clamperl,065,2,1,0,0,0,0,0,0
 Fusion Strike,Huntail,066,2,0,0,0,0,0,0,0
 Fusion Strike,Gorebyss,067,2,0,0,0,0,0,0,0
 Fusion Strike,Panpour,068,2,1,0,0,0,0,0,0
@@ -5587,7 +5587,7 @@ Fusion Strike,Galarian Cursola,118,2,1,0,0,0,0,0,0
 Fusion Strike,Mawile,119,1,0,0,0,0,0,0,0
 Fusion Strike,Deoxys,120,1,0,0,0,0,0,0,0
 Fusion Strike,Munna,121,1,0,0,0,0,0,0,0
-Fusion Strike,Musharna,122,2,0,0,0,0,0,0,0
+Fusion Strike,Musharna,122,2,1,0,0,0,0,0,0
 Fusion Strike,Sigilyph,123,2,0,0,0,0,0,0,0
 Fusion Strike,Meloetta,124,2,1,0,0,0,0,0,0
 Fusion Strike,Sandygast,125,2,2,0,0,0,0,0,0
@@ -5646,7 +5646,7 @@ Fusion Strike,Morgrem,177,2,0,0,0,0,0,0,0
 Fusion Strike,Grimmsnarl,178,2,1,0,0,0,0,0,0
 Fusion Strike,Morpeko,179,2,1,0,0,0,0,0,0
 Fusion Strike,Galarian Meowth,180,2,1,0,0,0,0,0,0
-Fusion Strike,Galarian Perrserker,181,2,0,0,0,0,0,0,0
+Fusion Strike,Galarian Perrserker,181,2,1,0,0,0,0,0,0
 Fusion Strike,Skarmory,182,2,1,0,0,0,0,0,0
 Fusion Strike,Excadrill,183,2,0,0,0,0,0,0,0
 Fusion Strike,Durant,184,2,2,0,0,0,0,0,0
@@ -5673,7 +5673,7 @@ Fusion Strike,Eevee,205,2,0,0,0,0,0,0,0
 Fusion Strike,Snorlax,206,2,1,0,0,0,0,0,0
 Fusion Strike,Dunsparce,207,2,0,0,0,0,0,0,0
 Fusion Strike,Stantler,208,2,1,0,0,0,0,0,0
-Fusion Strike,Smeargle,209,2,0,0,0,0,0,0,0
+Fusion Strike,Smeargle,209,2,1,0,0,0,0,0,0
 Fusion Strike,Skitty,210,2,1,0,0,0,0,0,0
 Fusion Strike,Delcatty,211,2,0,0,0,0,0,0,0
 Fusion Strike,Buneary,212,2,0,0,0,0,0,0,0
@@ -6290,7 +6290,7 @@ Brilliant Stars,Klink,102,2,2,0,0,0,0,0,0
 Brilliant Stars,Klang,103,2,2,0,0,0,0,0,0
 Brilliant Stars,Klinklang,104,2,2,0,0,0,0,0,0
 Brilliant Stars,Zamazenta V,105,2,0,0,0,0,0,0,0
-Brilliant Stars,Flygon V,106,1,0,0,0,0,0,0,0
+Brilliant Stars,Flygon V,106,2,0,0,0,0,0,0,0
 Brilliant Stars,Gible,107,2,1,0,0,0,0,0,0
 Brilliant Stars,Gabite,108,2,0,0,0,0,0,0,0
 Brilliant Stars,Garchomp,109,2,2,0,0,0,0,0,0
@@ -6359,7 +6359,7 @@ Brilliant Stars,Dedenne,TG07,2,0,0,0,0,0,0,0
 Brilliant Stars,Alcremie,TG08,3,0,0,0,0,0,0,0
 Brilliant Stars,Ariados,TG09,3,0,0,0,0,0,0,0
 Brilliant Stars,Eevee,TG11,1,0,0,0,0,0,0,0
-Brilliant Stars,Oranguru,TG12,1,0,0,0,0,0,0,0
+Brilliant Stars,Oranguru,TG12,2,0,0,0,0,0,0,0
 Brilliant Stars,Boltund V,TG13,1,0,0,0,0,0,0,0
 Brilliant Stars,Sylveon V,TG14,1,0,0,0,0,0,0,0
 Brilliant Stars,Mimikyu VMAX,TG17,1,0,0,0,0,0,0,0
@@ -8347,38 +8347,39 @@ Obsidian Flames,Artazon,229,1,0,0,0,0,0,0,0
 151,Raichu,026,2,1,0,0,0,0,0,0
 151,Sandshrew,027,2,2,0,0,0,0,0,0
 151,Sandslash,028,2,2,0,0,0,0,0,0
-151,Nidoran♀,029,2,1,0,0,0,0,0,0
+151,Nidoran♀,029,2,2,0,0,0,0,0,0
 151,Nidorina,030,2,2,0,0,0,0,0,0
 151,Nidoqueen,031,2,1,0,0,0,0,0,0
 151,Nidoran♂,032,2,1,0,0,0,0,0,0
-151,Nidorino,033,2,1,0,0,0,0,0,0
+151,Nidorino,033,2,2,0,0,0,0,0,0
 151,Nidoking,034,2,2,0,0,0,0,0,0
 151,Clefairy,035,2,2,0,0,0,0,0,0
 151,Clefable,036,2,2,0,0,0,0,0,0
 151,Vulpix,037,2,2,0,0,0,0,0,0
+151,Ninetales ex,038,1,0,0,0,0,0,0,0
 151,Jigglypuff,039,2,1,0,0,0,0,0,0
 151,Wigglytuff ex,040,1,0,0,0,0,0,0,0
 151,Zubat,041,2,2,0,0,0,0,0,0
-151,Golbat,042,2,0,0,0,0,0,0,0
+151,Golbat,042,2,1,0,0,0,0,0,0
 151,Oddish,043,2,1,0,0,0,0,0,0
 151,Gloom,044,2,1,0,0,0,0,0,0
 151,Vileplume,045,2,0,0,0,0,0,0,0
 151,Paras,046,2,1,0,0,0,0,0,0
 151,Parasect,047,2,2,0,0,0,0,0,0
 151,Venonat,048,2,2,0,0,0,0,0,0
-151,Venomoth,049,1,2,0,0,0,0,0,0
+151,Venomoth,049,2,2,0,0,0,0,0,0
 151,Diglett,050,2,1,0,0,0,0,0,0
 151,Dugtrio,051,2,2,0,0,0,0,0,0
 151,Meowth,052,2,1,0,0,0,0,0,0
 151,Persian,053,2,2,0,0,0,0,0,0
-151,Psyduck,054,2,1,0,0,0,0,0,0
+151,Psyduck,054,2,2,0,0,0,0,0,0
 151,Golduck,055,1,2,0,0,0,0,0,0
 151,Mankey,056,2,0,0,0,0,0,0,0
 151,Primeape,057,2,1,0,0,0,0,0,0
 151,Growlithe,058,2,2,0,0,0,0,0,0
 151,Arcanine,059,2,2,0,0,0,0,0,0
 151,Poliwag,060,2,2,0,0,0,0,0,0
-151,Poliwhirl,061,2,0,0,0,0,0,0,0
+151,Poliwhirl,061,2,1,0,0,0,0,0,0
 151,Poliwrath,062,2,2,0,0,0,0,0,0
 151,Abra,063,2,2,0,0,0,0,0,0
 151,Kadabra,064,2,1,0,0,0,0,0,0
@@ -8411,13 +8412,13 @@ Obsidian Flames,Artazon,229,1,0,0,0,0,0,0,0
 151,Haunter,093,2,1,0,0,0,0,0,0
 151,Gengar,094,2,1,0,0,0,0,0,0
 151,Onix,095,2,2,0,0,0,0,0,0
-151,Drowzee,096,2,1,0,0,0,0,0,0
+151,Drowzee,096,2,2,0,0,0,0,0,0
 151,Hypno,097,2,0,0,0,0,0,0,0
 151,Krabby,098,2,0,0,0,0,0,0,0
 151,Kingler,099,2,1,0,0,0,0,0,0
 151,Voltorb,100,2,2,0,0,0,0,0,0
 151,Electrode,101,2,2,0,0,0,0,0,0
-151,Exeggcute,102,2,1,0,0,0,0,0,0
+151,Exeggcute,102,2,2,0,0,0,0,0,0
 151,Exeggutor,103,2,2,0,0,0,0,0,0
 151,Cubone,104,2,1,0,0,0,0,0,0
 151,Marowak,105,2,0,0,0,0,0,0,0
@@ -8431,7 +8432,7 @@ Obsidian Flames,Artazon,229,1,0,0,0,0,0,0,0
 151,Chansey,113,2,2,0,0,0,0,0,0
 151,Tangela,114,2,2,0,0,0,0,0,0
 151,Kangaskhan ex,115,1,0,0,0,0,0,0,0
-151,Horsea,116,2,1,0,0,0,0,0,0
+151,Horsea,116,2,2,0,0,0,0,0,0
 151,Seadra,117,2,2,0,0,0,0,0,0
 151,Goldeen,118,2,1,0,0,0,0,0,0
 151,Seaking,119,2,2,0,0,0,0,0,0
@@ -8461,7 +8462,7 @@ Obsidian Flames,Artazon,229,1,0,0,0,0,0,0,0
 151,Snorlax,143,2,2,0,0,0,0,0,0
 151,Articuno,144,2,0,0,0,0,0,0,0
 151,Zapdos ex,145,2,0,0,0,0,0,0,0
-151,Moltres,146,2,1,0,0,0,0,0,0
+151,Moltres,146,2,2,0,0,0,0,0,0
 151,Dratini,147,2,2,0,0,0,0,0,0
 151,Dragonair,148,2,1,0,0,0,0,0,0
 151,Dragonite,149,2,1,0,0,0,0,0,0
@@ -8476,7 +8477,7 @@ Obsidian Flames,Artazon,229,1,0,0,0,0,0,0,0
 151,Energy Sticker,159,0,1,0,0,0,0,0,0
 151,Erika's Invitation,160,2,1,0,0,0,0,0,0
 151,Giovanni's Charisma,161,2,0,0,0,0,0,0,0
-151,Grabber,162,1,2,0,0,0,0,0,0
+151,Grabber,162,2,2,0,0,0,0,0,0
 151,Leftovers,163,2,1,0,0,0,0,0,0
 151,Protective Goggles,164,2,1,0,0,0,0,0,0
 151,Rigid Band,165,2,2,0,0,0,0,0,0
