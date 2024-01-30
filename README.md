@@ -1,3 +1,6 @@
+January 29th, 2024
+My write_missing script isn't working right because my_cards and prices.xlsx only contain cards I have. I need to create a master list that has all cards whether I have them or not and just update as I go. Then continue on with figuring out pricing and then probably make pivot tables with slices to sort cards better. 
+
 January 26th, 2024
 I have written scripts to: 1. write my doubles 2. write my missing 3. update a master excel in prices folder that will keep track of prices over time. I am still trying to figure out how to 
 1. pull prices of unlimited AND reverse 

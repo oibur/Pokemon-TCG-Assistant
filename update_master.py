@@ -8,22 +8,27 @@ def update_prices(master_path, new_path, output_path):
     # Read the new CSV with the latest cards
     new_df = pd.read_csv(new_path)
 
-    # Identify new cards by comparing against the master list using the first 7 columns
-    columns_to_compare = ['set', 'name', 'number', 'unlimited', 'reverse', 'promo']
-    new_cards_df = new_df[~new_df[columns_to_compare].isin(master_df[columns_to_compare]).all(1)]
+    # Merge the DataFrames based on common keys ('set' and 'number')
+    merged_df = pd.merge(master_df, new_df, on=['set', 'number'], how='outer', suffixes=('', '_new'))
 
-    # Only select the first 7 columns for the new cards
-    new_cards_df = new_cards_df[columns_to_compare]
+    # Columns to update
+    update_columns = ['unlimited', 'reverse', 'promo', '1st']
 
-    # Append the new cards to the master list
-    updated_master_df = pd.concat([master_df, new_cards_df], ignore_index=True)
+    # Update existing rows where the values are different
+    for col in update_columns:
+        col_master = col
+        col_new = col + '_new'
+        master_df[col_master] = merged_df.apply(lambda row: row[col_new] if pd.notnull(row[col_new]) else row[col_master], axis=1)
+
+    # Sort the final DataFrame by 'set' and then 'number'
+    master_df = master_df.sort_values(by=['set', 'number'])
 
     # Save the updated master list to a new Excel file
-    updated_master_df.to_excel(output_path, index=False)
+    master_df.to_excel(output_path, index=False)
 
 if __name__ == "__main__":
     master_prices_path = 'prices/prices.xlsx'
     new_cards_path = 'my_cards.csv'
-    output_path = 'prices/prices.xlsx'
+    prices_output_path = 'prices/prices.xlsx'
 
-    update_prices(master_prices_path, new_cards_path, output_path)
+    update_prices(master_prices_path, new_cards_path, prices_output_path)
