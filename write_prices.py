@@ -11,7 +11,6 @@ df = df[(df.iloc[:, 3:] != 0).any(axis=1)]  # Exclude rows where all columns are
 
 # Step 3: Fetch prices using the TCGplayer API
 def get_card_prices(card_name):
-    # Replace 'your_api_key' with your actual TCGplayer API key
     api_key = 'c2eaa76b-c34c-4d3a-8f33-da95a230d9ea'
     url = f'https://api.pokemontcg.io/v2/cards?q=name:{card_name}'
     headers = {'X-Api-Key': api_key}

@@ -1,3 +1,12 @@
+February 2nd, 2024
+Alrighty Then! That was one step forward and 5 steps back. After figuring out I wasn't working with a master list I figured out how to get that done, but it took quite a while. I figured out how to first generate a list of all sets and then pull cards up one set at a time and write them to an excel. Next I will:
+1. Add my cards from csv to a new sheet in Excel
+2. Get write doubles to write to a new sheet in the same Excel
+3. Get write missing to write to a new sheet in the same Excel
+4. Get everything to just create a new Excel everytime instead of updating one
+    -this will not only simplify the code, but will also give data over time to analyze.
+5. Combine files so everything can be done at once
+
 January 29th, 2024
 My write_missing script isn't working right because my_cards and prices.xlsx only contain cards I have. I need to create a master list that has all cards whether I have them or not and just update as I go. Then continue on with figuring out pricing and then probably make pivot tables with slices to sort cards better. 
 
