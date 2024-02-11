@@ -9,7 +9,7 @@ def select_and_write_doubles(df, column, output_folder, output_filename):
 
 # Load CSV data into a DataFrame and select only the first 6 columns
 selected_columns = ['set', 'name', 'number', 'unlimited', 'reverse', 'promo']
-df = pd.read_csv('my_cards.csv', usecols=selected_columns)
+df = pd.read_csv('tcghub_collection.csv', usecols=selected_columns)
 
 # Create a folder with the current date (YYYY-MM-DD format)
 current_date = datetime.now().strftime('%Y-%m-%d')

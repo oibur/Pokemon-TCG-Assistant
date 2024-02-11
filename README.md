@@ -1,14 +1,11 @@
 February 2nd, 2024
-Alrighty Then! That was one step forward and 5 steps back. After figuring out I wasn't working with a master list I figured out how to get that done, but it took quite a while. I figured out how to first generate a list of all sets and then pull cards up one set at a time and write them to an excel. Next I will:
+After figuring out I wasn't working with a master list I figured out how to get that done.I figured out how to first generate a list of all sets and then pull cards up one set at a time and write them to an excel. Next I will:
 1. Add my cards from csv to a new sheet in Excel
 2. Get write doubles to write to a new sheet in the same Excel
 3. Get write missing to write to a new sheet in the same Excel
 4. Get everything to just create a new Excel everytime instead of updating one
     -this will not only simplify the code, but will also give data over time to analyze.
 5. Combine files so everything can be done at once
-
-January 29th, 2024
-My write_missing script isn't working right because my_cards and prices.xlsx only contain cards I have. I need to create a master list that has all cards whether I have them or not and just update as I go. Then continue on with figuring out pricing and then probably make pivot tables with slices to sort cards better. 
 
 January 26th, 2024
 I have written scripts to: 1. write my doubles 2. write my missing 3. update a master excel in prices folder that will keep track of prices over time. I am still trying to figure out how to 
@@ -20,7 +17,7 @@ I have written scripts to: 1. write my doubles 2. write my missing 3. update a m
 
 January 22nd, 2024
 My aim is to create an app that can help me keep track of all my Pokemon cards. 
-# 1. What doubles do I have available to trade
+1. What doubles do I have available to trade
     -Able to filter by set, reverse holo, rarity, etc. 
 2. What is the value of my entire collection
 3. What is the value of individual cards
