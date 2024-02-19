@@ -1,5 +1,32 @@
 import pandas as pd
 import requests
+from openpyxl import Workbook
+
+def fetch_set_data(api_key):
+    url = 'https://api.pokemontcg.io/v2/sets'
+    headers = {'X-Api-Key': api_key}
+    response = requests.get(url, headers=headers)
+    return response
+
+def write_set_data_to_excel(api_data, excel_file_path):
+    wb = Workbook()
+    ws = wb.active
+    ws.title = 'sets'
+    column_names = ["id", "series", "name", "total", "releaseDate"]
+    ws.append(column_names)
+    
+    if api_data.status_code == 200:
+        api_data_json = api_data.json()["data"]
+        sorted_api_data = sorted(api_data_json, key=lambda x: x["releaseDate"])
+        
+        for entry in sorted_api_data:
+            row = [entry["id"], entry["series"], entry["name"], entry["total"], entry["releaseDate"]]
+            ws.append(row)
+
+        wb.save(filename=excel_file_path)
+        print(f"Excel file '{excel_file_path}' has been created successfully.")
+    else:
+        print(f"Error: Unable to fetch data from the API. Status Code: {api_data.status_code}")
 
 def fetch_card_data(api_key, set_id):
     url = f'https://api.pokemontcg.io/v2/cards?q=set.id:{set_id}'
@@ -33,7 +60,12 @@ def extract_data(card_data, set_name):
     return extracted_data
 
 def main():
-    excel_file_path, set_sheet_name, cards_sheet_name = 'CARDS.xlsx', 'sets', 'cards'
+    api_key = 'c2eaa76b-c34c-4d3a-8f33-da95a230d9ea'
+    response = fetch_set_data(api_key)
+    excel_file_path = 'CARDS.xlsx'
+    write_set_data_to_excel(response, excel_file_path)
+    set_sheet_name = 'sets'
+    cards_sheet_name ='cards'
 
     try:
         existing_df_sets = pd.read_excel(excel_file_path, sheet_name=set_sheet_name, engine='openpyxl')
@@ -52,7 +84,7 @@ def main():
 
     for set_id in set_ids:
         try:
-            card_data = fetch_card_data(api_key='c2eaa76b-c34c-4d3a-8f33-da95a230d9ea', set_id=set_id)
+            card_data = fetch_card_data(api_key, set_id=set_id)
         except Exception as e:
             print(f"Error fetching data for set {set_id}: {e}")
             continue
