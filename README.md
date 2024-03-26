@@ -1,3 +1,25 @@
+This program will give you an excel sheet with the all standard Pokemon cards released to date and current prices for each. If you import a csv of your collection, it will also list all doubles you have. I am still working on matching the price sheet with collection csv to give a value of your current collection. I am also working on generating a list of cards you're missing.
+
+
+
+
+
+
+
+
+
+March 25th, 2024
+I've got a lot done since the last check-in: I figured out how to pull prices for all six formats instead of just unlimited. I was able to combine three files into one script instead of having one to pull set names, one to pull cards using set excel and one to pull prices from excel sheet. I was able to figure out why pricing my own cards wasn't working and need to fix that. 
+Updated list of goals:
+From JAN 2:
+    -What is the value of my collection
+    -What are the cards I am missing
+    -Biggest price changes for cards each week
+From JAN 26:
+    -What is the value of my collection (broken down)
+From FEB 2:
+    -Get my cards, doubles and missing to generate to a single excel
+
 February 2nd, 2024
 After figuring out I wasn't working with a master list I figured out how to get that done.I figured out how to first generate a list of all sets and then pull cards up one set at a time and write them to an excel. Next I will:
 1. Add my cards from csv to a new sheet in Excel
@@ -25,4 +47,4 @@ My aim is to create an app that can help me keep track of all my Pokemon cards.
     -Top 5 weekly drops and top 5 weekly jumps
 5. What are the cheapest cards to buy that I don't have yet
 
-I will start off by tackling each of these features individually, but hope to tie it all together into a single app with interactive menus. 
+I will start off by tackling each of these features individually, but hope to tie it all together into a single app with interactive menus.
