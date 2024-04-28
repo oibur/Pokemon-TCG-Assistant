@@ -1,12 +1,20 @@
+import os
 import pandas as pd
 import requests
 from openpyxl import Workbook
 from typing import List, Dict, Any
+from datetime import datetime
 
 # Constants
 API_KEY = 'c2eaa76b-c34c-4d3a-8f33-da95a230d9ea'
 API_URL = 'https://api.pokemontcg.io/v2'
-EXCEL_FILE_PATH = 'CARDS.xlsx'
+#EXCEL_FILE_PATH = 'CARDS.xlsx'
+
+# Define the output folder as a subfolder of the base folder for the current date
+output_folder = os.path.join('History', datetime.now().strftime('%Y-%m-%d'))
+# Define the output file path to save the workbook
+EXCEL_FILE_PATH = os.path.join(output_folder, 'doubles.xlsx')
+
 SET_SHEET_NAME = 'sets'
 CARDS_SHEET_NAME = 'cards'
 COLUMN_NAMES = ["id", "series", "name", "total", "releaseDate"]
