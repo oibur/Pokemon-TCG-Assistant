@@ -5547,7 +5547,7 @@ Fusion Strike,Clauncher,074,2,1,0,0,0,0,0,0
 Fusion Strike,Clawitzer,075,2,0,0,0,0,0,0,0
 Fusion Strike,Pyukumuku,077,2,2,0,0,0,0,0,0
 Fusion Strike,Inteleon V,078,2,0,0,0,0,0,0,0
-Fusion Strike,Chewtle,080,2,2,0,0,0,0,0,0
+Fusion Strike,Chewtle,080,2,1,0,0,0,0,0,0
 Fusion Strike,Drednaw,081,2,1,0,0,0,0,0,0
 Fusion Strike,Arrokuda,082,2,1,0,0,0,0,0,0
 Fusion Strike,Barraskewda,083,2,0,0,0,0,0,0,0
@@ -5817,7 +5817,7 @@ Chilling Reign,Venipede,105,2,2,0,0,0,0,0,0
 Chilling Reign,Whirlipede,106,2,2,0,0,0,0,0,0
 Chilling Reign,Scolipede,107,2,1,0,0,0,0,0,0
 Chilling Reign,Single Strike Urshifu,108,1,2,0,0,0,0,0,0
-Chilling Reign,Aron,109,2,1,0,0,0,0,0,0
+Chilling Reign,Aron,109,2,0,0,0,0,0,0,0
 Chilling Reign,Lairon,110,2,1,0,0,0,0,0,0
 Chilling Reign,Aggron,111,2,2,0,0,0,0,0,0
 Chilling Reign,Cobalion,114,2,0,0,0,0,0,0,0
@@ -6662,9 +6662,9 @@ Shining Fates,Grimmsnarl V,SV116,2,0,0,0,0,0,0,0
 Shining Fates,Ditto V,SV118,1,0,0,0,0,0,0,0
 Shining Fates,Ditto VMAX,SV119,2,0,0,0,0,0,0,0
 Shining Fates,Eternatus VMAX,SV122,1,0,0,0,0,0,0,0
-Silver Tempest,Venonat,001,2,2,0,0,0,0,0,0
+Silver Tempest,Venonat,001,2,1,0,0,0,0,0,0
 Silver Tempest,Venomoth,002,2,1,0,0,0,0,0,0
-Silver Tempest,Spinarak,003,2,1,0,0,0,0,0,0
+Silver Tempest,Spinarak,003,2,0,0,0,0,0,0,0
 Silver Tempest,Ariados,004,2,1,0,0,0,0,0,0
 Silver Tempest,Sunkern,005,2,2,0,0,0,0,0,0
 Silver Tempest,Sunflora,006,2,1,0,0,0,0,0,0
@@ -6675,10 +6675,10 @@ Silver Tempest,Foongus,011,2,2,0,0,0,0,0,0
 Silver Tempest,Amoonguss,012,2,2,0,0,0,0,0,0
 Silver Tempest,Durant,013,2,0,0,0,0,0,0,0
 Silver Tempest,Virizion,014,2,0,0,0,0,0,0,0
-Silver Tempest,Chesnaught V,015,2,0,0,0,0,0,0,0
+Silver Tempest,Chesnaught V,015,1,0,0,0,0,0,0,0
 Silver Tempest,Radiant Tsareena,016,3,0,0,0,0,0,0,0
 Silver Tempest,Vulpix,017,2,2,0,0,0,0,0,0
-Silver Tempest,Ninetales,018,2,2,0,0,0,0,0,0
+Silver Tempest,Ninetales,018,2,1,0,0,0,0,0,0
 Silver Tempest,Growlithe,019,2,1,0,0,0,0,0,0
 Silver Tempest,Arcanine,020,2,1,0,0,0,0,0,0
 Silver Tempest,Ponyta,021,2,0,0,0,0,0,0,0
@@ -6687,15 +6687,15 @@ Silver Tempest,Victini,023,2,2,0,0,0,0,0,0
 Silver Tempest,Reshiram V,024,2,0,0,0,0,0,0,0
 Silver Tempest,Fennekin,025,2,1,0,0,0,0,0,0
 Silver Tempest,Braixen,026,2,1,0,0,0,0,0,0
-Silver Tempest,Delphox,027,2,1,0,0,0,0,0,0
-Silver Tempest,Fletchinder,028,2,2,0,0,0,0,0,0
+Silver Tempest,Delphox,027,2,0,0,0,0,0,0,0
+Silver Tempest,Fletchinder,028,2,1,0,0,0,0,0,0
 Silver Tempest,Talonflame,029,2,0,0,0,0,0,0,0
 Silver Tempest,Litten,030,2,0,0,0,0,0,0,0
 Silver Tempest,Torracat,031,2,0,0,0,0,0,0,0
 Silver Tempest,Incineroar,032,2,0,0,0,0,0,0,0
 Silver Tempest,Omastar V,035,2,0,0,0,0,0,0,0
 Silver Tempest,Articuno,036,2,1,0,0,0,0,0,0
-Silver Tempest,Wailmer,037,2,1,0,0,0,0,0,0
+Silver Tempest,Wailmer,037,2,0,0,0,0,0,0,0
 Silver Tempest,Wailord,038,2,0,0,0,0,0,0,0
 Silver Tempest,Feebas,039,2,0,0,0,0,0,0,0
 Silver Tempest,Milotic,040,1,1,0,0,0,0,0,0
@@ -6703,12 +6703,12 @@ Silver Tempest,Snorunt,041,2,1,0,0,0,0,0,0
 Silver Tempest,Glalie,042,2,2,0,0,0,0,0,0
 Silver Tempest,Froslass,043,2,1,0,0,0,0,0,0
 Silver Tempest,Relicanth,044,2,1,0,0,0,0,0,0
-Silver Tempest,Phione,045,2,0,0,0,0,0,0,0
+Silver Tempest,Phione,045,1,0,0,0,0,0,0,0
 Silver Tempest,Keldeo,046,2,0,0,0,0,0,0,0
 Silver Tempest,Dewpider,047,2,0,0,0,0,0,0,0
 Silver Tempest,Araquanid,048,2,0,0,0,0,0,0,0
 Silver Tempest,Pikachu,049,2,0,0,0,0,0,0,0
-Silver Tempest,Raichu,050,2,1,0,0,0,0,0,0
+Silver Tempest,Raichu,050,2,0,0,0,0,0,0,0
 Silver Tempest,Chinchou,051,2,1,0,0,0,0,0,0
 Silver Tempest,Lanturn,052,2,1,0,0,0,0,0,0
 Silver Tempest,Rotom,053,2,0,0,0,0,0,0,0
@@ -6717,11 +6717,11 @@ Silver Tempest,Stunfisk,055,2,1,0,0,0,0,0,0
 Silver Tempest,Zeraora,056,2,0,0,0,0,0,0,0
 Silver Tempest,Regieleki V,057,1,0,0,0,0,0,0,0
 Silver Tempest,Regieleki VMAX,058,1,0,0,0,0,0,0,0
-Silver Tempest,Radiant Alakazam,059,4,0,0,0,0,0,0,0
+Silver Tempest,Radiant Alakazam,059,3,0,0,0,0,0,0,0
 Silver Tempest,Drowzee,060,2,2,0,0,0,0,0,0
 Silver Tempest,Hypno,061,2,0,0,0,0,0,0,0
 Silver Tempest,Jynx,062,2,2,0,0,0,0,0,0
-Silver Tempest,Misdreavus,063,2,2,0,0,0,0,0,0
+Silver Tempest,Misdreavus,063,2,1,0,0,0,0,0,0
 Silver Tempest,Mismagius,064,2,1,0,0,0,0,0,0
 Silver Tempest,Unown V,065,2,0,0,0,0,0,0,0
 Silver Tempest,Unown VSTAR,066,2,0,0,0,0,0,0,0
@@ -6755,17 +6755,17 @@ Silver Tempest,Baltoy,093,2,1,0,0,0,0,0,0
 Silver Tempest,Claydol,094,2,0,0,0,0,0,0,0
 Silver Tempest,Anorith,095,2,2,0,0,0,0,0,0
 Silver Tempest,Armaldo,096,2,0,0,0,0,0,0,0
-Silver Tempest,Terrakion,097,2,0,0,0,0,0,0,0
+Silver Tempest,Terrakion,097,1,0,0,0,0,0,0,0
 Silver Tempest,Hawlucha,098,2,2,0,0,0,0,0,0
 Silver Tempest,Sandygast,099,2,2,0,0,0,0,0,0
 Silver Tempest,Palossand,100,2,0,0,0,0,0,0,0
 Silver Tempest,Stonjourner,101,2,1,0,0,0,0,0,0
 Silver Tempest,Ursaluna V,102,1,0,0,0,0,0,0,0
 Silver Tempest,Zubat,103,2,1,0,0,0,0,0,0
-Silver Tempest,Golbat,104,2,2,0,0,0,0,0,0
+Silver Tempest,Golbat,104,2,1,0,0,0,0,0,0
 Silver Tempest,Crobat,105,1,0,0,0,0,0,0,0
 Silver Tempest,Murkrow,106,2,1,0,0,0,0,0,0
-Silver Tempest,Honchkrow,107,2,1,0,0,0,0,0,0
+Silver Tempest,Honchkrow,107,1,1,0,0,0,0,0,0
 Silver Tempest,Croagunk,109,2,1,0,0,0,0,0,0
 Silver Tempest,Toxicroak,110,2,1,0,0,0,0,0,0
 Silver Tempest,Sandile,111,2,0,0,0,0,0,0,0
@@ -6796,7 +6796,7 @@ Silver Tempest,Smeargle,137,2,1,0,0,0,0,0,0
 Silver Tempest,Lugia V,138,2,0,0,0,0,0,0,0
 Silver Tempest,Lugia VSTAR,139,5,0,0,0,0,0,0,0
 Silver Tempest,Ho-Oh V,140,1,0,0,0,0,0,0,0
-Silver Tempest,Spinda,141,2,2,0,0,0,0,0,0
+Silver Tempest,Spinda,141,2,1,0,0,0,0,0,0
 Silver Tempest,Swablu,142,2,2,0,0,0,0,0,0
 Silver Tempest,Altaria,143,2,1,0,0,0,0,0,0
 Silver Tempest,Buneary,144,2,2,0,0,0,0,0,0
@@ -6832,20 +6832,18 @@ Silver Tempest,Unown V,176,1,0,0,0,0,0,0,0
 Silver Tempest,Unown V,177,1,0,0,0,0,0,0,0
 Silver Tempest,Lugia V,185,1,0,0,0,0,0,0,0
 Silver Tempest,Alolan Vulpix VSTAR,197,1,0,0,0,0,0,0,0
-Silver Tempest,Candice,204,1,0,0,0,0,0,0,0
 Silver Tempest,Serena,207,1,0,0,0,0,0,0,0
 Silver Tempest,Worker,209,1,0,0,0,0,0,0,0
 Silver Tempest,Energy Switch,212,2,0,0,0,0,0,0,0
-Silver Tempest,Gapejaw Bog,213,2,0,0,0,0,0,0,0
+Silver Tempest,Gapejaw Bog,213,1,0,0,0,0,0,0,0
 Silver Tempest,Leafy Camo Poncho,214,1,0,0,0,0,0,0,0
 Silver Tempest,Braixen,TG01,2,0,0,0,0,0,0,0
 Silver Tempest,Milotic,TG02,2,0,0,0,0,0,0,0
-Silver Tempest,Flaaffy,TG03,1,0,0,0,0,0,0,0
 Silver Tempest,Jynx,TG04,1,0,0,0,0,0,0,0
 Silver Tempest,Gardevoir,TG05,1,0,0,0,0,0,0,0
 Silver Tempest,Rockruff,TG07,1,0,0,0,0,0,0,0
-Silver Tempest,Passimian,TG08,3,0,0,0,0,0,0,0
-Silver Tempest,Druddigon,TG09,3,0,0,0,0,0,0,0
+Silver Tempest,Passimian,TG08,2,0,0,0,0,0,0,0
+Silver Tempest,Druddigon,TG09,2,0,0,0,0,0,0,0
 Silver Tempest,Smeargle,TG10,2,0,0,0,0,0,0,0
 Silver Tempest,Altaria,TG11,1,0,0,0,0,0,0,0
 Silver Tempest,Blaziken V,TG14,1,0,0,0,0,0,0,0
@@ -6983,7 +6981,7 @@ Evolving Skies,Teddiursa,126,2,2,0,0,0,0,0,0
 Evolving Skies,Ursaring,127,2,2,0,0,0,0,0,0
 Evolving Skies,Smeargle,128,2,0,0,0,0,0,0,0
 Evolving Skies,Slakoth,129,2,2,0,0,0,0,0,0
-Evolving Skies,Vigoroth,130,2,2,0,0,0,0,0,0
+Evolving Skies,Vigoroth,130,2,1,0,0,0,0,0,0
 Evolving Skies,Slaking,131,2,2,0,0,0,0,0,0
 Evolving Skies,Swablu,132,2,2,0,0,0,0,0,0
 Evolving Skies,Lillipup,133,2,1,0,0,0,0,0,0
@@ -7372,7 +7370,7 @@ Lost Origins,Wurmple,006,2,1,0,0,0,0,0,0
 Lost Origins,Silcoon,007,2,0,0,0,0,0,0,0
 Lost Origins,Beautifly,008,1,1,0,0,0,0,0,0
 Lost Origins,Cascoon,009,2,0,0,0,0,0,0,0
-Lost Origins,Dustox,010,2,2,0,0,0,0,0,0
+Lost Origins,Dustox,010,2,1,0,0,0,0,0,0
 Lost Origins,Seedot,011,2,0,0,0,0,0,0,0
 Lost Origins,Nuzleaf,012,2,0,0,0,0,0,0,0
 Lost Origins,Shiftry,013,2,1,0,0,0,0,0,0
@@ -7920,7 +7918,7 @@ Scarlet & Violet,Wiglett,206,1,0,0,0,0,0,0,0
 Scarlet & Violet,Ralts,211,2,0,0,0,0,0,0,0
 Scarlet & Violet,Kirlia,212,1,0,0,0,0,0,0,0
 Scarlet & Violet,Sandile,216,2,0,0,0,0,0,0,0
-Scarlet & Violet,Mabosstiff,218,2,0,0,0,0,0,0,0
+Scarlet & Violet,Mabosstiff,218,1,0,0,0,0,0,0,0
 Scarlet & Violet,Bombirdier,219,1,0,0,0,0,0,0,0
 Scarlet & Violet,Magnezone ex,226,1,0,0,0,0,0,0,0
 Scarlet & Violet,Gardevoir ex,228,1,0,0,0,0,0,0,0
@@ -8186,7 +8184,7 @@ Obsidian Flames,Lapras,045,2,0,0,0,0,0,0,0
 Obsidian Flames,Carvanha,046,2,1,0,0,0,0,0,0
 Obsidian Flames,Sharpedo,047,2,0,0,0,0,0,0,0
 Obsidian Flames,Buizel,048,2,0,0,0,0,0,0,0
-Obsidian Flames,Floatzel,049,2,1,0,0,0,0,0,0
+Obsidian Flames,Floatzel,049,2,0,0,0,0,0,0,0
 Obsidian Flames,Tympole,050,2,0,0,0,0,0,0,0
 Obsidian Flames,Palpitoad,051,2,0,0,0,0,0,0,0
 Obsidian Flames,Seismitoad,052,2,1,0,0,0,0,0,0
@@ -8449,7 +8447,7 @@ Obsidian Flames,Artazon,229,1,0,0,0,0,0,0,0
 151,Weezing,110,2,2,0,0,0,0,0,0
 151,Rhyhorn,111,2,2,0,0,0,0,0,0
 151,Rhydon,112,2,2,0,0,0,0,0,0
-151,Chansey,113,2,3,0,0,0,0,0,0
+151,Chansey,113,2,2,0,0,0,0,0,0
 151,Tangela,114,2,2,0,0,0,0,0,0
 151,Kangaskhan ex,115,1,0,0,0,0,0,0,0
 151,Horsea,116,2,2,0,0,0,0,0,0
@@ -8552,7 +8550,7 @@ Paradox Rift,Armarouge ex,027,1,0,0,0,0,0,0,0
 Paradox Rift,Iron Moth,028,0,1,0,0,0,0,0,0
 Paradox Rift,Horsea,030,0,1,0,0,0,0,0,0
 Paradox Rift,Seadra,031,2,0,0,0,0,0,0,0
-Paradox Rift,Kingdra,032,0,2,0,0,0,0,0,0
+Paradox Rift,Kingdra,032,0,1,0,0,0,0,0,0
 Paradox Rift,Remoraid,033,1,2,0,0,0,0,0,0
 Paradox Rift,Octillery,034,1,2,0,0,0,0,0,0
 Paradox Rift,Feebas,035,2,0,0,0,0,0,0,0
@@ -8561,7 +8559,7 @@ Paradox Rift,Snorunt,037,2,0,0,0,0,0,0,0
 Paradox Rift,Garchomp ex,038,1,0,0,0,0,0,0,0
 Paradox Rift,Mantyke,039,2,1,0,0,0,0,0,0
 Paradox Rift,Palkia,040,1,1,0,0,0,0,0,0
-Paradox Rift,Panpour,041,1,2,0,0,0,0,0,0
+Paradox Rift,Panpour,041,0,2,0,0,0,0,0,0
 Paradox Rift,Simipour,042,2,2,0,0,0,0,0,0
 Paradox Rift,Vanillite,043,2,0,0,0,0,0,0,0
 Paradox Rift,Vanillish,044,2,0,0,0,0,0,0,0
@@ -8609,15 +8607,15 @@ Paradox Rift,Gliscor,092,2,0,0,0,0,0,0,0
 Paradox Rift,Groudon,093,1,0,0,0,0,0,0,0
 Paradox Rift,Gible,094,2,2,0,0,0,0,0,0
 Paradox Rift,Gabite,095,2,2,0,0,0,0,0,0
-Paradox Rift,Mienfoo,096,2,0,0,0,0,0,0,0
+Paradox Rift,Mienfoo,096,1,0,0,0,0,0,0,0
 Paradox Rift,Mienshao,097,2,1,0,0,0,0,0,0
 Paradox Rift,Minior,099,2,0,0,0,0,0,0,0
 Paradox Rift,Nacli,101,2,0,0,0,0,0,0,0
 Paradox Rift,Nacli,102,2,1,0,0,0,0,0,0
-Paradox Rift,Naclstack,103,2,1,0,0,0,0,0,0
+Paradox Rift,Naclstack,103,2,0,0,0,0,0,0,0
 Paradox Rift,Garganacl,104,2,0,0,0,0,0,0,0
 Paradox Rift,Klawf,105,2,0,0,0,0,0,0,0
-Paradox Rift,Flamigo,106,2,2,0,0,0,0,0,0
+Paradox Rift,Flamigo,106,2,1,0,0,0,0,0,0
 Paradox Rift,Slither Wing,107,1,0,0,0,0,0,0,0
 Paradox Rift,Ting-Lu,109,2,0,0,0,0,0,0,0
 Paradox Rift,Zubat,110,2,0,0,0,0,0,0,0
@@ -8663,8 +8661,7 @@ Paradox Rift,Tandemaus,153,2,1,0,0,0,0,0,0
 Paradox Rift,Tandemaus,154,1,2,0,0,0,0,0,0
 Paradox Rift,Cyclizar,157,2,0,0,0,0,0,0,0
 Paradox Rift,Iron Jugulis,158,1,0,0,0,0,0,0,0
-Paradox Rift,Ancient Booster Energy Capsule,159,3,0,0,0,0,0,0,0
-Paradox Rift,Counter Catcher,160,1,0,0,0,0,0,0,0
+Paradox Rift,Ancient Booster Energy Capsule,159,2,0,0,0,0,0,0,0
 Paradox Rift,Cursed Duster,161,2,1,0,0,0,0,0,0
 Paradox Rift,Defiance Vest,162,1,1,0,0,0,0,0,0
 Paradox Rift,Earthen Vessel,163,2,0,0,0,0,0,0,0
@@ -8682,7 +8679,6 @@ Paradox Rift,Shauntal,174,2,0,0,0,0,0,0,0
 Paradox Rift,Snorlax Doll,175,2,1,0,0,0,0,0,0
 Paradox Rift,Technical Machine: Blindside,176,1,0,0,0,0,0,0,0
 Paradox Rift,Technical Machine: Devolution,177,2,0,0,0,0,0,0,0
-Paradox Rift,Technical Machine: Evolution,178,0,1,0,0,0,0,0,0
 Paradox Rift,Technical Machine: Turbo Energize,179,1,1,0,0,0,0,0,0
 Paradox Rift,Techno Radar,180,2,1,0,0,0,0,0,0
 Paradox Rift,Tulip,181,2,0,0,0,0,0,0,0
@@ -8803,7 +8799,6 @@ Temporal Forces,Scyther,001,2,0,0,0,0,0,0,0
 Temporal Forces,Pineco,002,2,0,0,0,0,0,0,0
 Temporal Forces,Seedot,003,2,0,0,0,0,0,0,0
 Temporal Forces,Nuzleaf,004,1,0,0,0,0,0,0,0
-Temporal Forces,Shiftry,005,1,0,0,0,0,0,0,0
 Temporal Forces,Shroomish,006,2,1,0,0,0,0,0,0
 Temporal Forces,Breloom,007,1,0,0,0,0,0,0,0
 Temporal Forces,Roselia,008,1,1,0,0,0,0,0,0
@@ -8825,8 +8820,8 @@ Temporal Forces,Rapidash,027,1,1,0,0,0,0,0,0
 Temporal Forces,Slugma,028,2,0,0,0,0,0,0,0
 Temporal Forces,Magcargo,029,2,1,0,0,0,0,0,0
 Temporal Forces,Victini,030,2,1,0,0,0,0,0,0
-Temporal Forces,Heatmor,031,2,0,0,0,0,0,0,0
-Temporal Forces,Litten,032,2,0,0,0,0,0,0,0
+Temporal Forces,Heatmor,031,1,0,0,0,0,0,0,0
+Temporal Forces,Litten,032,1,0,0,0,0,0,0,0
 Temporal Forces,Torracat,033,1,1,0,0,0,0,0,0
 Temporal Forces,Incineroar ex,034,1,0,0,0,0,0,0,0
 Temporal Forces,Turtonator,035,2,1,0,0,0,0,0,0
@@ -8850,9 +8845,9 @@ Temporal Forces,Electivire,054,2,1,0,0,0,0,0,0
 Temporal Forces,Vikavolt,056,2,0,0,0,0,0,0,0
 Temporal Forces,Zeraora,057,2,0,0,0,0,0,0,0
 Temporal Forces,Yamper,058,0,1,0,0,0,0,0,0
-Temporal Forces,Boltund,059,2,0,0,0,0,0,0,0
+Temporal Forces,Boltund,059,1,0,0,0,0,0,0,0
 Temporal Forces,Iron Hands,061,2,0,0,0,0,0,0,0
-Temporal Forces,Iron Thorns,062,2,0,0,0,0,0,0,0
+Temporal Forces,Iron Thorns,062,1,0,0,0,0,0,0,0
 Temporal Forces,Mr. Mime,063,1,2,0,0,0,0,0,0
 Temporal Forces,Marill,064,2,0,0,0,0,0,0,0
 Temporal Forces,Girafarig,066,1,0,0,0,0,0,0,0
@@ -8860,7 +8855,7 @@ Temporal Forces,Bronzor,068,2,2,0,0,0,0,0,0
 Temporal Forces,Bronzong,069,2,0,0,0,0,0,0,0
 Temporal Forces,Solosis,070,2,0,0,0,0,0,0,0
 Temporal Forces,Duosion,071,2,0,0,0,0,0,0,0
-Temporal Forces,Reuniclus,072,2,0,0,0,0,0,0,0
+Temporal Forces,Reuniclus,072,1,0,0,0,0,0,0,0
 Temporal Forces,Elgyem,073,2,1,0,0,0,0,0,0
 Temporal Forces,Beheeyem,074,1,1,0,0,0,0,0,0
 Temporal Forces,Cutiefly,075,2,0,0,0,0,0,0,0
@@ -8876,11 +8871,11 @@ Temporal Forces,Drilbur,085,2,1,0,0,0,0,0,0
 Temporal Forces,Excadrill,086,2,0,0,0,0,0,0,0
 Temporal Forces,Golett,087,1,1,0,0,0,0,0,0
 Temporal Forces,Golurk,088,2,1,0,0,0,0,0,0
-Temporal Forces,Rockruff,089,2,0,0,0,0,0,0,0
+Temporal Forces,Rockruff,089,1,0,0,0,0,0,0,0
 Temporal Forces,Lycanroc,090,2,0,0,0,0,0,0,0
 Temporal Forces,Mudbray,091,2,2,0,0,0,0,0,0
-Temporal Forces,Mudsdale,092,2,0,0,0,0,0,0,0
-Temporal Forces,Rolycoly,093,2,1,0,0,0,0,0,0
+Temporal Forces,Mudsdale,092,1,0,0,0,0,0,0,0
+Temporal Forces,Rolycoly,093,1,1,0,0,0,0,0,0
 Temporal Forces,Carkol,094,2,0,0,0,0,0,0,0
 Temporal Forces,Great Tusk,096,2,0,0,0,0,0,0,0
 Temporal Forces,Great Tusk,097,2,0,0,0,0,0,0,0
@@ -8892,7 +8887,7 @@ Temporal Forces,Haunter,103,2,0,0,0,0,0,0,0
 Temporal Forces,Gengar ex,104,1,0,0,0,0,0,0,0
 Temporal Forces,Poochyena,105,2,0,0,0,0,0,0,0
 Temporal Forces,Mightyena,106,2,1,0,0,0,0,0,0
-Temporal Forces,Sableye,107,0,2,0,0,0,0,0,0
+Temporal Forces,Sableye,107,0,1,0,0,0,0,0,0
 Temporal Forces,Forretress,110,2,0,0,0,0,0,0,0
 Temporal Forces,Mawile,112,2,0,0,0,0,0,0,0
 Temporal Forces,Beldum,113,2,1,0,0,0,0,0,0
@@ -8906,7 +8901,7 @@ Temporal Forces,Miraidon,121,2,0,0,0,0,0,0,0
 Temporal Forces,Miraidon ex,122,1,0,0,0,0,0,0,0
 Temporal Forces,Lickitung,124,2,0,0,0,0,0,0,0
 Temporal Forces,Lickilicky,125,1,0,0,0,0,0,0,0
-Temporal Forces,Hoothoot,126,2,2,0,0,0,0,0,0
+Temporal Forces,Hoothoot,126,2,1,0,0,0,0,0,0
 Temporal Forces,Noctowl,127,1,1,0,0,0,0,0,0
 Temporal Forces,Dunsparce,128,2,1,0,0,0,0,0,0
 Temporal Forces,Dudunsparce,129,0,1,0,0,0,0,0,0
@@ -8916,12 +8911,12 @@ Temporal Forces,Chatot,132,2,0,0,0,0,0,0,0
 Temporal Forces,Pidove,133,2,1,0,0,0,0,0,0
 Temporal Forces,Tranquill,134,1,0,0,0,0,0,0,0
 Temporal Forces,Unfezant,135,2,0,0,0,0,0,0,0
-Temporal Forces,Minccino,136,2,2,0,0,0,0,0,0
+Temporal Forces,Minccino,136,2,1,0,0,0,0,0,0
 Temporal Forces,Cinccino,137,2,0,0,0,0,0,0,0
 Temporal Forces,Drampa,138,2,0,0,0,0,0,0,0
 Temporal Forces,Iron Jugulis,139,1,0,0,0,0,0,0,0
 Temporal Forces,Ancient Booster Energy Capsule,140,2,0,0,0,0,0,0,0
-Temporal Forces,Bianca's Devotion,142,2,1,0,0,0,0,0,0
+Temporal Forces,Bianca's Devotion,142,1,1,0,0,0,0,0,0
 Temporal Forces,Boxed Order,143,1,0,0,0,0,0,0,0
 Temporal Forces,Buddy-Buddy Poffin,144,2,0,0,0,0,0,0,0
 Temporal Forces,Ciphermaniac's Codebreaking,145,2,0,0,0,0,0,0,0
@@ -8933,7 +8928,7 @@ Temporal Forces,Hand Trimmer,150,2,0,0,0,0,0,0,0
 Temporal Forces,Heavy Baton,151,1,0,0,0,0,0,0,0
 Temporal Forces,Master Ball,153,1,0,0,0,0,0,0,0
 Temporal Forces,Morty's Conviction,155,1,1,0,0,0,0,0,0
-Temporal Forces,Perilous Jungle,156,2,1,0,0,0,0,0,0
+Temporal Forces,Perilous Jungle,156,2,0,0,0,0,0,0,0
 Temporal Forces,Prime Catcher,157,1,0,0,0,0,0,0,0
 Temporal Forces,Reboot Pod,158,1,0,0,0,0,0,0,0
 Temporal Forces,Rescue Board,159,1,0,0,0,0,0,0,0

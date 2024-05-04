@@ -38,15 +38,15 @@ def write_set_data_to_excel(data: List[Dict[str, Any]]) -> None:
     wb.save(filename=EXCEL_FILE_PATH)
     print(f"Excel file '{EXCEL_FILE_PATH}' has been created successfully.")
 
-def extract_card_data(card_data: List[Dict[str, Any]], set_name: str) -> List[Dict[str, Any]]:
+def extract_card_data(card_data: List[Dict[str, Any]], set_id_to_name: Dict[str, str], set_id: str) -> List[Dict[str, Any]]:
     extracted_data = []
+    set_name = set_id_to_name[set_id]
     for card in card_data:
-        card_id, card_name = card["id"], card["name"]
+        card_number, card_name = card["number"], card["name"]
         rarity = card.get("rarity", None)
         prices_data = {f"{format_name}_market_price": format_data.get("market", None)
                        for format_name, format_data in card.get("tcgplayer", {}).get("prices", {}).items()}
         prices_data["reverseHolofoil_market_price"] = prices_data.get("reverseHolofoil_market_price", None)
-        card_number = int(''.join(filter(str.isdigit, card_id)))
         extracted_data.append({"set": set_name, "number": card_number, "name": card_name, "rarity": rarity, **prices_data})
     return extracted_data
 
@@ -57,6 +57,9 @@ def main() -> None:
     except requests.exceptions.RequestException as e:
         print(f"Error: Unable to fetch data from the API. {e}")
         return
+
+    # Create a dictionary to map set IDs to set names
+    set_id_to_name = {entry['id']: entry['name'] for entry in set_data}
 
     existing_df_sets = pd.DataFrame()
     try:
@@ -70,7 +73,7 @@ def main() -> None:
     for set_id in existing_df_sets['id'].tolist():
         try:
             card_data = fetch_card_data(set_id=set_id)
-            extracted_data = extract_card_data(card_data, set_name=set_id)
+            extracted_data = extract_card_data(card_data, set_id_to_name, set_id)
             df = pd.DataFrame(extracted_data)
             existing_df_cards = pd.concat([existing_df_cards, df], ignore_index=True)
         except requests.exceptions.RequestException as e:
