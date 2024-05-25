@@ -46,7 +46,7 @@ def extract_card_data(card_data: List[Dict[str, Any]], set_name: str, set_releas
         prices_data = {f"{format_name}_market_price": format_data.get("market", None)
                        for format_name, format_data in card.get("tcgplayer", {}).get("prices", {}).items()}
         prices_data["reverseHolofoil_market_price"] = prices_data.get("reverseHolofoil_market_price", None)
-        card_number = int(''.join(filter(str.isdigit, card_id)))
+        card_number = card["number"]  # Use the 'number' field directly from the card data
         extracted_data.append({
             "set-releaseDate": set_release_date,
             "set-name": set_name,
