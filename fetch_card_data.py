@@ -3,7 +3,7 @@ import requests
 from openpyxl import Workbook
 from typing import List, Dict, Any
 
-# Constants
+#CONSTANTS
 API_KEY = 'c2eaa76b-c34c-4d3a-8f33-da95a230d9ea'
 API_URL = 'https://api.pokemontcg.io/v2'
 EXCEL_FILE_PATH = 'CARDS.xlsx'
