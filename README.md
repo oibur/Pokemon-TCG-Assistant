@@ -8,8 +8,16 @@ Import a csv of your collection in order to:
 -Create an excel sheet of the value of your cards (individual and total)
 
 
-
-
+June 8th, 2024
+-Have merged my cards from tcg_hub to prices in CARDS
+-Entered Twilight Mascarade since tcg_hub is dead
+-Now have priceas of all my cards and grand total
+-Want to divide Excel into sheets for each era
+    /\
+    ||
+May 5th, 2024
+-Been super busy with work and life
+-Made a few improvements though, and really close to merging my Excel books
     /\
     ||
 April 4th, 2024

@@ -3,12 +3,11 @@ import requests
 from openpyxl import Workbook
 from typing import List, Dict, Any
 
-#CONSTANTS
+# CONSTANTS
 API_KEY = 'c2eaa76b-c34c-4d3a-8f33-da95a230d9ea'
 API_URL = 'https://api.pokemontcg.io/v2'
 EXCEL_FILE_PATH = 'CARDS.xlsx'
 SET_SHEET_NAME = 'sets'
-CARDS_SHEET_NAME = 'cards'
 COLUMN_NAMES = ["id", "series", "name", "total", "releaseDate"]
 
 def fetch_data(url: str, headers: Dict[str, str]) -> Dict[str, Any]:
@@ -73,32 +72,29 @@ def main() -> None:
     except FileNotFoundError:
         pass
 
-    existing_df_cards = pd.DataFrame(columns=[
-        "set-releaseDate", "set-name", "number", "name", "rarity",
-        "holofoil_market_price", "reverseHolofoil_market_price",
-        "normal_market_price", "1stEditionHolofoil_market_price",
-        "unlimitedHolofoil_market_price", "1stEdition_market_price",
-        "unlimited_market_price"
-    ])
-    
+    series_data = {}
+
     for _, set_row in existing_df_sets.iterrows():
         set_id = set_row["id"]
         set_name = set_row["name"]
         set_release_date = set_row["releaseDate"]
+        series_name = set_row["series"]
         try:
             card_data = fetch_card_data(set_id=set_id)
             extracted_data = extract_card_data(card_data, set_name=set_name, set_release_date=set_release_date)
             df = pd.DataFrame(extracted_data)
-            existing_df_cards = pd.concat([existing_df_cards, df], ignore_index=True)
+            if series_name not in series_data:
+                series_data[series_name] = pd.DataFrame(columns=df.columns)
+            series_data[series_name] = pd.concat([series_data[series_name], df], ignore_index=True)
         except requests.exceptions.RequestException as e:
             print(f"Error fetching data for set {set_id}: {e}")
             continue
 
-    existing_df_cards.sort_values(by=['set-releaseDate', 'number'], inplace=True)
-
     with pd.ExcelWriter(EXCEL_FILE_PATH, engine='openpyxl', date_format='m/d/yyyy') as writer:
-        existing_df_cards.to_excel(writer, sheet_name=CARDS_SHEET_NAME, index=False)
         existing_df_sets.to_excel(writer, sheet_name=SET_SHEET_NAME, index=False)
+        for series_name, df in series_data.items():
+            df.sort_values(by=['set-releaseDate', 'number'], inplace=True)
+            df.to_excel(writer, sheet_name=series_name, index=False)
 
     print("Data written to Excel.")
 
