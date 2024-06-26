@@ -21,9 +21,17 @@ def fetch_set_data() -> List[Dict[str, Any]]:
     return fetch_data(url, headers)
 
 def fetch_card_data(set_id: str) -> List[Dict[str, Any]]:
-    url = f'{API_URL}/cards?q=set.id:{set_id}'
     headers = {'X-Api-Key': API_KEY}
-    return fetch_data(url, headers)
+    all_cards = []
+    page = 1
+    while True:
+        url = f'{API_URL}/cards?q=set.id:{set_id}&pageSize=250&page={page}'
+        cards = fetch_data(url, headers)
+        all_cards.extend(cards)
+        if len(cards) < 250:
+            break
+        page += 1
+    return all_cards
 
 def write_set_data_to_excel(data: List[Dict[str, Any]]) -> None:
     wb = Workbook()
@@ -81,6 +89,7 @@ def main() -> None:
         series_name = set_row["series"]
         try:
             card_data = fetch_card_data(set_id=set_id)
+            print(f"Fetched {len(card_data)} cards for set {set_id} - {set_name}")  # Debugging line
             extracted_data = extract_card_data(card_data, set_name=set_name, set_release_date=set_release_date)
             df = pd.DataFrame(extracted_data)
             if series_name not in series_data:

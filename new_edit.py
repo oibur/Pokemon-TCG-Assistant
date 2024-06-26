@@ -1,4 +1,5 @@
 import pandas as pd
+import xlsxwriter
 
 # Load the workbook
 file_path = 'CARDS.xlsx'  # replace with your actual file path
@@ -24,6 +25,14 @@ if not duplicate_rows.empty:
 # Ensure 'Set / #' is unique in cards_df
 if not cards_df['Set / #'].is_unique:
     raise ValueError("The 'Set / #' column in 'Cards' is not unique after handling duplicates.")
+
+# Function to convert column index to Excel column letters
+def col_num_to_col_letters(n):
+    string = ""
+    while n > 0:
+        n, remainder = divmod(n - 1, 26)
+        string = chr(65 + remainder) + string
+    return string
 
 # Process each set sheet
 modified_dfs = {}
@@ -58,6 +67,31 @@ with pd.ExcelWriter(new_file_path, engine='xlsxwriter') as writer:
     
     # Write the modified set sheets
     for sheet_name, df in modified_dfs.items():
+        # Sort by column B (set-releaseDate) and then by column D (number)
+        df = df.sort_values(by=['set-releaseDate', 'number'])
+        
+        # Write to Excel
         df.to_excel(writer, sheet_name=sheet_name, index=False)
+        
+        # Get the workbook and worksheet objects
+        workbook_obj = writer.book
+        worksheet = writer.sheets[sheet_name]
+        
+        # Get the header format
+        header_format = workbook_obj.add_format({'bold': True, 'text_wrap': True, 'valign': 'top', 'fg_color': '#D7E4BC', 'border': 1})
+        
+        # Get the green format for total value columns
+        green_format = workbook_obj.add_format({'bg_color': '#C6EFCE', 'font_color': '#006100', 'border': 1})
+        
+        # Write the header with the specified format
+        for col_num, value in enumerate(df.columns.values):
+            worksheet.write(0, col_num, value, header_format)
+            
+            # Highlight columns ending in $ green and sum their values
+            if value.endswith('_total_$'):
+                worksheet.set_column(col_num, col_num, None, green_format)
+                col_letter = col_num_to_col_letters(col_num + 1)
+                total_formula = f'=SUM({col_letter}2:{col_letter}{len(df) + 1})'
+                worksheet.write(len(df) + 1, col_num, total_formula, green_format)
 
 print(f"Processed data has been saved to {new_file_path}")
