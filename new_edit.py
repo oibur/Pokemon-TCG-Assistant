@@ -56,6 +56,14 @@ for sheet_name in set_sheets:
             total_col = f"{col}_total_$"
             set_df[total_col] = set_df[col] * set_df[qnty_col]
     
+    # Add a new column that sums all columns ending in '_total_$'
+    total_value_columns = [col for col in set_df.columns if col.endswith('_total_$')]
+    set_df['Total_Value_$'] = set_df[total_value_columns].sum(axis=1)
+    
+    # Move the 'Total_Value_$' column to the beginning
+    cols = ['Total_Value_$'] + [col for col in set_df.columns if col != 'Total_Value_$']
+    set_df = set_df[cols]
+    
     # Store the modified dataframe in the dictionary
     modified_dfs[sheet_name] = set_df
 
@@ -67,7 +75,7 @@ with pd.ExcelWriter(new_file_path, engine='xlsxwriter') as writer:
     
     # Write the modified set sheets
     for sheet_name, df in modified_dfs.items():
-        # Sort by column B (set-releaseDate) and then by column D (number)
+        # Sort by column C (set-releaseDate) and then by column E (number)
         df = df.sort_values(by=['set-releaseDate', 'number'])
         
         # Write to Excel
@@ -87,11 +95,8 @@ with pd.ExcelWriter(new_file_path, engine='xlsxwriter') as writer:
         for col_num, value in enumerate(df.columns.values):
             worksheet.write(0, col_num, value, header_format)
             
-            # Highlight columns ending in $ green and sum their values
-            if value.endswith('_total_$'):
+            # Highlight columns ending in $ green and 'Total_Value_$'
+            if value.endswith('_total_$') or value == 'Total_Value_$':
                 worksheet.set_column(col_num, col_num, None, green_format)
-                col_letter = col_num_to_col_letters(col_num + 1)
-                total_formula = f'=SUM({col_letter}2:{col_letter}{len(df) + 1})'
-                worksheet.write(len(df) + 1, col_num, total_formula, green_format)
 
 print(f"Processed data has been saved to {new_file_path}")
